@@ -12,7 +12,8 @@
     "drop": "pnpm dlx drizzle-kit drop",
     "migrate": "pnpm dlx drizzle-kit migrate",
     "db-studio": "pnpm dlx drizzle-kit studio",
-    "db-update": "bun run codegen && bun run migrate && bun run push"
+    "db-update": "bun run codegen && bun run migrate && bun run push",
+    "project-setup":"npm i -g pnpm && pnpm i && cp .env.example .env"
   },
   "dependencies": {
     "@auth/drizzle-adapter": "^1.10.0",
